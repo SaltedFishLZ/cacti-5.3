@@ -1,32 +1,19 @@
-# Prerequisites
-*.d
+# preserve README
+!README
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# preserve makefile
+!Makefile
+!makefile
+!*.mk
 
-# Precompiled Headers
-*.gch
-*.pch
+# preserve cacti configs
+*.cfg
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# preserve source codes
+!*.i
+!*.cc
+!*.hh
+!*.c
+!*.h
+!*.cpp
+!*.hpp
